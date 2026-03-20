@@ -1,0 +1,14 @@
+# Environments
+venv_stable/
+env/
+.venv/
+__pycache__/
+
+# Database
+chroma_db/
+
+# Secrets
+.env
+
+# OS Files
+.DS_Store
