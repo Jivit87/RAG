@@ -5,7 +5,6 @@ A high-performance local Retrieval-Augmented Generation (RAG) system utilizing t
 ## Features
 - **Fast Generation**: Uses the cutting-edge Groq API (powered by `llama-3.3-70b-versatile`).
 - **Local Embeddings**: Fully local, open-source embedding pipeline powered by HuggingFace `sentence-transformers/all-MiniLM-L6-v2`.
-- **Memory Buffer**: Retains your conversation context memory for complex follow-up questions.
 - **Persistent Vector Store**: Securely builds and queries a local `chroma_db` database, caching embeddings so you don't rebuild them on every run.
 
 ## Prerequisites
@@ -16,8 +15,8 @@ A high-performance local Retrieval-Augmented Generation (RAG) system utilizing t
 
 1. **Clone the repository:**
    ```bash
-   git clone <your-repository-url>
-   cd <your-repository-directory>
+   git clone https://github.com/Jivit87/RAG.git
+   cd RAG
    ```
 
 2. **Create a stable virtual environment:**
